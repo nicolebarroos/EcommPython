@@ -17,7 +17,7 @@ jobs:
       deploy:
         provider: heroku
         api_key:
-          secure: a44abbe3-7f1c-4769-a9fb-23b6f31f2b31
+          secure: 33668459-c6de-40a5-9184-abd7ab5dac00
         app: ecomm-acelera
         on: master
         run: "python manage.py migrate"
